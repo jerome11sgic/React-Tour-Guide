@@ -21,7 +21,7 @@ import styled from 'styled-components';
                     <div className="col-md-3 col-sm-6">
                         <h4>Lorem ippsum</h4>
                         <ul className="list-unstyled">
-                        <li><a href="/">lorem</a></li>
+                            <li><a href="/">lorem</a></li>
                             <li><a href="/">lorem</a></li>
                             <li><a href="/">lorem</a></li>
                             <li><a href="/">lorem</a></li>
@@ -31,7 +31,7 @@ import styled from 'styled-components';
                     <div className="col-md-3 col-sm-6">
                         <h4>Lorem ippsum</h4>
                         <ul className="list-unstyled">
-                        <li><a href="/">lorem</a></li>
+                            <li><a href="/">lorem</a></li>
                             <li><a href="/">lorem</a></li>
                             <li><a href="/">lorem</a></li>
                             <li><a href="/">lorem</a></li>

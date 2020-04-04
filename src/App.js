@@ -1,17 +1,21 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 
+// React router import
 import {Switch,Route} from 'react-router-dom';
+
+// import Pages
 import Home from './components/pages/Home';
 import News from './components/pages/News';
 import Contacts from './components/pages/Contacts';
 import Details from './components/pages/Details';
 import NotFoundPage from './components/pages/NotFoundPage';
 
-function App() {
+class App extends Component {
+  render(){
   return (
     <div className="App">
      <Navbar/>
@@ -25,6 +29,7 @@ function App() {
     <Footer/>
     </div>
   );
+  }
 }
 
 export default App;
